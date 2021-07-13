@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    background-color:navy;
+}
+.heading{
+    margin-top: 196px;
+    margin-left: 164px;
+    font-size: 64px;
+    color: white;
+}
+.link-button{
+    margin-left: 164px;
+    text-decoration: none;
+    border: 2px solid #E02C6D;
+    width: 300px;
+    height: 200px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px 10px 24px;
+}
+.half-width img{
+    height: 438px;
+    width: 556px;
+    margin-top: 153px;
+    margin-right: 180px;
+    margin-bottom: 86px;
+}
+.players{
+    margin-top: 70px;
+    margin-right: 180px;
+    margin-left:210px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+   
+}
+.player{
+    height: 474px;
+    width: 330px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.player-img img{
+    height: 271px;
+    width: 319px;
+}
+.about{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
